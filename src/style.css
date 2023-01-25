@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  background: linear-gradient(to right, #C7F34A, #FB5405);
+}
+
+.container {
+  width: 700px;
+  height: 98vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_date {
+  width: 100%;
+  font-size: 75px;
+  background: rgba(0, 0, 0, 0.100);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .date {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+}
